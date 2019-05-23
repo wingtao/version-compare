@@ -1,0 +1,26 @@
+{
+  "name": "version-compare",
+  "version": "1.0.0",
+  "description": "版本号比较大小",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js",
+    "test": "mocha ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wingtao/version-compare.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wingtao/version-compare/issues"
+  },
+  "homepage": "https://github.com/wingtao/version-compare#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "rollup": "^1.12.3"
+  }
+}
