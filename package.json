@@ -11,8 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/wingtao/version-compare.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "version",
+    "compare"
+  ],
+  "author": "wingtao",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wingtao/version-compare/issues"
