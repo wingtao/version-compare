@@ -17,4 +17,4 @@
 
 ## Features
 
-like the name, this library is used to compare the version.
+like the name, this library is used to compare the version，just be useful for the format like 'Major.Minor.Patch'.

@@ -1,6 +1,6 @@
 {
   "name": "version-compare",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "版本号比较大小",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
