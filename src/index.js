@@ -21,11 +21,11 @@ function versionCompare(v1, v2) {
 
   if (len1 !== len2) {
     len1 > len2
-      ? arr2.concat(times(len1 - len2, 0))
-      : arr1.concat(times(len2 - len1, 0));
+      ? arr2.push(...times(len1 - len2, 0))
+      : arr1.push(...times(len2 - len1, 0));
   }
   let res = true;
-  for (let i = 0; i < len1; i++) {
+  for (let i = 0; i < Math.max(len1, len2); i++) {
     if (arr1[i] < arr2[i]) {
       res = false;
       break;

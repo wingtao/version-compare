@@ -2,7 +2,8 @@
   "name": "version-compare",
   "version": "1.0.0",
   "description": "版本号比较大小",
-  "main": "lib/index.js",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
   "scripts": {
     "build": "rollup --config rollup.config.js",
     "test": "mocha ./test/*.js"
@@ -16,14 +17,17 @@
     "compare"
   ],
   "author": "wingtao",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wingtao/version-compare/issues"
   },
   "homepage": "https://github.com/wingtao/version-compare#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
     "chai": "^4.2.0",
     "mocha": "^6.1.4",
-    "rollup": "^1.12.3"
+    "rollup": "^1.12.3",
+    "rollup-plugin-babel": "^4.3.2"
   }
 }
