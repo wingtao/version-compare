@@ -2,6 +2,7 @@
 
 [![GitHub issues](https://img.shields.io/github/issues/wingtao/version-compare.svg)](https://github.com/wingtao/version-compare/issues)
 [![GitHub license](https://img.shields.io/github/license/wingtao/version-compare.svg)](https://github.com/wingtao/version-compare/blob/master/LICENSE)
+![npm](https://img.shields.io/npm/v/versions-comparison.svg)
 
 [中文版](README-CN.md)
 

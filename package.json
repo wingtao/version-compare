@@ -1,5 +1,5 @@
 {
-  "name": "version-compare",
+  "name": "versions-comparison",
   "version": "0.1.0",
   "description": "版本号比较大小",
   "main": "lib/index.cjs.js",
